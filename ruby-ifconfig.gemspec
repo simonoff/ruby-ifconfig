@@ -2,7 +2,7 @@
  
 Gem::Specification.new do |s|
   s.name = %q{ruby-ifconfig}
-  s.version = "1.2.2"
+  s.version = "1.2.3"
   s.date = %q{2008-12-09}
   s.authors = ["Daniel Hobe", "Alex Peuchert"]
   s.email = %q{daniel@nightrunner.com}
