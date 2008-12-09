@@ -1,4 +1,3 @@
-$Id: README,v 1.1.1.1 2005/07/02 19:10:57 hobe Exp $
 
 This is a Ruby wrapper around the ifconfig command.  The goal is to make
 getting any information that ifconfig provides easy to access.

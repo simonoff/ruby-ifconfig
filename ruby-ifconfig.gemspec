@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.authors = ["Daniel Hobe", "Alex Peuchert"]
   s.email = %q{daniel@nightrunner.com}
   s.homepage = %q{http://github.com/aaalex/ruby-ifconfig}
+  s.rubyforge_project = %q{ruby-ifconfig}
 
   s.description = %q{Ruby wrapper around the ifconfig command.}
   s.summary = %q{This is a Ruby wrapper around the ifconfig command.  The goal is to make getting any information that ifconfig provides easy to access.}
