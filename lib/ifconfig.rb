@@ -14,13 +14,13 @@
 #
 # cfg = IfconfigWrapper.new.parse        # parses the output of ifconfig
 #
-# cfg.interfaces()           # returns list of interfaces
+# cfg.interfaces           # returns list of interfaces
 #
-# cfg[eth0].addresses('inet')   # returns ipv4 address of eth0
+# cfg['eth0'].addresses('inet')   # returns ipv4 address of eth0
 #
-# cfg.addrresses('inet')        # returns list of all ipv4 addresses
+# cfg.addresses('inet')        # returns list of all ipv4 addresses
 #
-# cfg[eth0].status   # returns true if interface is up
+# cfg['eth0'].status   # returns true if interface is up
 #
 # cfg.each { block } # run a block on each interface object
 

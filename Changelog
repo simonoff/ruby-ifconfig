@@ -1,9 +1,12 @@
+Version 1.2.3
+- added addrs_with_mask method in NetworkAdapter (Alex Peuchert)
+
 Version 1.2.2
-- increase of build number for GitHub to create GEM
+- increase of build number for GitHub to create GEM (Alex Peuchert)
 
 Version 1.2.1
 - import into GitHub (Alex Peuchert)
-- added .gemspec for automatic GEM creation
+- added .gemspec for automatic GEM creation (Alex Peuchert)
 
 Version 1.2
 - All IP addresses (v4 and v6) are ipaddr objects now.

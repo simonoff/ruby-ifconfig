@@ -76,6 +76,17 @@ class NetworkAdapter
     return types
   end
 
+  # returns array of arrays
+  # [ [address , mask ] ]
+  #
+  def addrs_with_mask
+    addrs = []
+    @networks.each_value {  |network|
+      addrs.push([network.addr.to_s,network.mask])
+    }
+    return addrs
+  end
+
   def has_addr?(addr)
     return self.addresses.include?(addr)
   end
