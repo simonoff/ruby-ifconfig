@@ -1,3 +1,6 @@
+Version 1.2.2
+- increase of build number for GitHub to create GEM
+
 Version 1.2.1
 - import into GitHub (Alex Peuchert)
 - added .gemspec for automatic GEM creation
